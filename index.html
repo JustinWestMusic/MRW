@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/main.css" rel="stylesheet"  type="text/css">
+<script src="script/TweenMax.min.js"></script>
+<script src="script/modernizr_custom.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+<title>Trailer Ranch | Your One Stop Pit Stop for Every Trailer On The Ranchin' Internet</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<img src="images/logo.png" id="logo" alt="Trailer Ranch Logo">
+	<h1>Trailer Ranch</h1>
+	 <!-- id = genre in database -->
+	<div id="buttonHolder">
+		<div class="btInline">
+		<img src="images/horror.png" class="icon" id="horror"  draggable="true" alt="horror button">
+		<h2>Horror</h2>
+		</div>
+		<div class="btInline">
+		<img src="images/adventure.png" class="icon" id="adventure" draggable="true" alt="adventure button">		
+		<h2>Adventure</h2>
+		</div>
+		<div class="btInline">
+		<img src="images/comedy.png" class="icon" id="comedy" draggable="true" alt="comedy button">
+		<h2>Comedy</h2>
+		</div>
+		<div class="btInline">
+		<img src="images/drama.png" class="icon" id="drama" draggable="true" alt="drama button">
+		<h2>Drama</h2>
+		</div>
+		<div class="btInline">
+		<img src="images/documentary.png" class="icon" id="documentary" draggable="true" alt="documentary button">
+		<h2>Documentary</h2>
+		</div>
+		<p>Drag a genre here</p>
+	</div>
+	
+	<!-- this is the drop target -> drag a button here -->
+	<div class="tracks" id="tracks">
+		<img src="images/targetImg.png" id="theTarget" alt="drag here">
+	    <p id="genreTitle"></p>
+	</div>
+	
+	<!-- videos get populated here -->
+	<ul class="trackHolder"></ul>
+
+	<video id="videoPlayer">
+	<source src="" type="video/mp4">
+	</video>
+
+	<div id="controlBar">
+		<div id="playButton"></div>
+	    <div id="shuffle"></div>
+	    <div id="muteButton"></div>
+	    <input id="volumeSlider" type="range" max="100" value="100">
+	    <p id="trackTime">Track Time</p>
+	    <progress id="prog" max="100"></progress>	    
+	</div>
+
+	<!-- Comments -->
+
+<div id="content">
+  <article id="main">
+    <article>
+      <h2>Leave a Comment</h2>
+    </article>
+        <div id="container">
+            <ul id="list" contenteditable>
+              <li>Enter your review here!</li>
+            </ul>
+          
+          	<button id="saveAll">Submit</button> |
+          	<button id="clearAll">Clear All</button>
+          
+        </div>
+  </article>
+</div>
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="script/mediaPlayer.js"></script>
+<script src="script/comments.js"></script>
+</body>
+</html>
