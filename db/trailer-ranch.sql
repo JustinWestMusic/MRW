@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2017 at 01:56 AM
+-- Generation Time: Apr 13, 2017 at 10:01 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -43,7 +43,7 @@ INSERT INTO `trailers` (`genre`, `trailer_name`, `id`, `trailer_description`) VA
 ('adventure', 'logan', 3, 'Logan :: The wolverine is back and this time...'),
 ('adventure', 'guardians', 4, 'Guardians of the Galaxy :: A rock, a tree and Chris Pratt'),
 ('comedy', 'superbad', 5, 'Superbad :: McLovin\'. That\'s all you need to know'),
-('comedy', 'tim_eric', 6, 'Tim and Eric\'s Billion Dollar Movie :: The duo needs to revitalize the S\'wallow Valley Mall'),
+('comedy', 'tim_eric', 6, 'Tim and Eric\'s Billion Dollar Movie :: S\'wallow Valley Mall'),
 ('drama', 'drama_ily', 7, 'I Love You Man :: Tom Sawyer, Rudd, Segel and Jones'),
 ('drama', 'foxcatcher', 8, 'Foxcatcher :: Wrestling with Tatum'),
 ('documentary', 'cosmos', 9, 'Cosmos :: Explore our vast universe'),
