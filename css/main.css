@@ -3,6 +3,7 @@
 
 /*Global Styles*/
 
+
 body 
 {
 	font-family: 'Anton', Helvetica, sans-serif;
@@ -78,7 +79,7 @@ h1
 .trackHolder 
 {
 	background-color: rgba(183,133,70,1);
-    width: 340px;
+    width: 320px;
     padding-top: 25px;
     z-index: 0;
     list-style-type: none;
@@ -130,36 +131,9 @@ h1
 { 
 	top:2px;
 	left: 30px;
-	font-size: 1em;
+	font-size: 1.2em;
 	line-height:0em;
 	cursor: pointer;
-}
-
-.greyClass 
-{
-	position:relative;
-	height: 30px;
-	background-image:url(../images/trackBG_2.png);
-	background-repeat:no-repeat;
-	cursor:pointer;
-}
-
-.yellowClass 
-{
-	position:relative;
-	height: 30px; 
-	background-image:url(../images/trackBG_3.png);
-	background-repeat:no-repeat;
-	cursor:pointer;
-}
-
-.purpleClass 
-{
-	position:relative;
-	height: 30px; 
-	background-image:url(../images/trackBG_1.png);
-	background-repeat:no-repeat;
-	cursor:pointer;
 }
 
 #controlBar 
@@ -228,7 +202,7 @@ progress::-webkit-progress-value
 
 .pauseMode 
 { 
-	position: 0px -20px; 
+	background-position: 0px -20px;
 }
 
 #muteButton 
@@ -236,7 +210,6 @@ progress::-webkit-progress-value
 	position:relative; 
 	top:3px; 
 	left:12px; 
-	/*float:left;*/ 
 	margin-right:5px; 
 	display:inline-block; 
 	width:20px; 
@@ -287,7 +260,7 @@ progress::-webkit-progress-value
 {
     margin: 15px auto;
     padding: 0;
-    width: 545px;
+    width: 320px;
 }
 
 #container  ul li 
@@ -326,9 +299,6 @@ progress::-webkit-progress-value
 	padding: 8px 14px 
 }
 
-
-
-
 /* Medium 641px + */
 @media only screen and (min-width: 40.063em) 
 { 
@@ -351,6 +321,11 @@ progress::-webkit-progress-value
 	progress 
 	{ 
 		display: block; 
+	}
+
+	#container  ul 
+	{
+	    width: 640px;
 	}
 }
 
